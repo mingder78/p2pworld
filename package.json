@@ -1,7 +1,7 @@
 {
   "name": "p2pworld",
   "description": "a playground for cli and lib for libp2p",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "private": true,
   "bin": {
@@ -17,7 +17,7 @@
     "test": "bun test",
     "release": "np",
     "docs": "typedoc",
-    "docs:serve": "bunx watch-http-server docs/typedoc"
+    "docs:serve": "bunx watch-http-server docs"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
