@@ -1,10 +1,16 @@
 {
+  "name": "p2pworld",
   "entryPoints": ["src/*.ts"],
   "out": "docs",
   "excludePrivate": true,
   "excludeInternal": true,
   "excludeProtected": true,
-  "readme": "none",
-  "includeVersion": true
+  "readme": "./README.md",
+  "includeVersion": true,
+  "exclude": ["**/node_modules/**", "**/dist/**", "**/test/**", "**/*.test.ts", "**/*.spec.ts"],
+  "headings": {
+    "readme": false,
+    "document": false
+  }
 }
 
