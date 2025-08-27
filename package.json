@@ -20,11 +20,11 @@
     "docs:serve": "bunx watch-http-server docs"
   },
   "devDependencies": {
-    "tsup": "^8.0.0",
-    "typescript": "^5.6.0",
-    "typedoc": "latest",
     "@types/bun": "latest",
-    "np": "^10.2.0"
+    "np": "^2.16.1",
+    "tsup": "^8.0.0",
+    "typedoc": "latest",
+    "typescript": "^5.6.0"
   },
   "peerDependencies": {
     "typescript": "^5"
