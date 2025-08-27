@@ -28,3 +28,4 @@
             with:
               github_token: ${{ secrets.GITHUB_TOKEN }}
               publish_dir: ./docs # The directory where TypeDoc outputs the documentation
+              
