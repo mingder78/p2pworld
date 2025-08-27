@@ -1,0 +1,35 @@
+{
+  "name": "my-lib-cli-typedoc-bun-test",
+  "description": "a template for cli and lib with bun and typedoc",
+  "version": "0.0.6",
+  "type": "module",
+  "private": false,
+  "bin": {
+    "my-lib-cli": "./dist/cli.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun run src/cli.ts",
+    "build": "tsup",
+    "test": "bun test",
+    "release": "np",
+    "docs": "typedoc"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.6.0",
+    "typedoc": "^0.28.11",
+    "typedoc-plugin-markdown": "^4.8.1",
+    "@types/bun": "latest",
+    "np": "^10.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
