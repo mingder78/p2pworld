@@ -1,7 +1,6 @@
 {
-  "entryPoints": ["src/index.ts"],
-  "out": "docs",
-  "plugin": ["typedoc-plugin-markdown"],
+  "entryPoints": ["src/*.ts"],
+  "out": "docs/typedoc",
   "excludePrivate": true,
   "excludeInternal": true,
   "excludeProtected": true,

@@ -1,11 +1,11 @@
 {
-  "name": "my-lib-cli-typedoc-bun-test",
-  "description": "a template for cli and lib with bun and typedoc",
-  "version": "0.0.6",
+  "name": "p2pworld",
+  "description": "a playground for cli and lib for libp2p",
+  "version": "0.0.0",
   "type": "module",
-  "private": false,
+  "private": true,
   "bin": {
-    "my-lib-cli": "./dist/cli.js"
+    "p2pworld": "./dist/cli.js"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -16,13 +16,13 @@
     "build": "tsup",
     "test": "bun test",
     "release": "np",
-    "docs": "typedoc"
+    "docs": "typedoc",
+    "docs:serve": "bunx watch-http-server docs/typedoc"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.6.0",
-    "typedoc": "^0.28.11",
-    "typedoc-plugin-markdown": "^4.8.1",
+    "typedoc": "latest",
     "@types/bun": "latest",
     "np": "^10.2.0"
   },
@@ -30,6 +30,6 @@
     "typescript": "^5"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }
