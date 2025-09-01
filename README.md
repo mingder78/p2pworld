@@ -77,7 +77,7 @@ Contributions are welcome! Please open issues and pull requests.
 
 ## 📄 License
 
-[MIT](./LICENSE)
+[MIT](./LICENSE.md)
 
 ---
 

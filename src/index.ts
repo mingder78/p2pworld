@@ -6,7 +6,7 @@
  */
 
 export function myLib(name: string): string {
-  return `Hello, ${name}!`;
+  return `Hello, p2p ${name}!`;
 }
 
 // Example entrypoint for programmatic use
